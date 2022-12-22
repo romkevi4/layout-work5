@@ -1,0 +1,22 @@
+{
+  "name": "layout-work5",
+  "version": "1.0.0",
+  "description": "layout-work5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romkevi4/layout-work5.git"
+  },
+  "author": "Roman Shatskikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romkevi4/layout-work5/issues"
+  },
+  "homepage": "https://github.com/romkevi4/layout-work5#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

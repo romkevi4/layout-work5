@@ -1,0 +1,44 @@
+/* Bootstrap */
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+
+/* Custom styles */
+.custom-basic {
+  font-family: "Roboto Light", sans-serif;
+  background-color: #f8faff;
+}
+
+.custom-container {
+  width: 98%;
+  max-width: 1440px;
+  min-width: 576px;
+  height: 65px; /* Нужно убрать жесткую привязку по размеру */
+}
+
+.custom-btn-message {
+  width: 20%;
+}
+
+.custom-img-message {
+  width: 35%;
+}
+
+.custom-border-color {
+  border-color: #d4d4d4;
+}
+
+.custom-link-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.custom-avatar {
+  width: 45px;
+  height: 45px;
+
+  background-color: #f4c002;
+}
+
+.custom-avatar-img {
+  object-fit: cover;
+  object-position: center;
+}
