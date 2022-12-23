@@ -11,19 +11,27 @@
   width: 98%;
   max-width: 1440px;
   min-width: 576px;
+}
+
+.custom-container-header {
   height: 65px; /* Нужно убрать жесткую привязку по размеру */
+}
+
+.custom-container-main {
+  height: 500px; /* Нужно убрать жесткую привязку по размеру */
 }
 
 .custom-btn-message {
   width: 20%;
 }
 
-.custom-img-message {
-  width: 35%;
+.custom-btn-add-shop {
+  background-color: #55c97b;
+  border-color: transparent;
 }
 
-.custom-border-color {
-  border-color: #d4d4d4;
+.custom-img-message {
+  width: 35%;
 }
 
 .custom-link-text {
@@ -35,10 +43,18 @@
   width: 45px;
   height: 45px;
 
-  background-color: #f4c002;
+  background-color: transparent;
 }
 
 .custom-avatar-img {
   object-fit: cover;
   object-position: center;
+}
+
+.custom-shop-box {
+  width: 90%;
+}
+
+.custom-text {
+  font-size: 13px;
 }

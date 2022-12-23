@@ -9,13 +9,15 @@
     <title>Layout work5</title>
 </head>
 <body class="mt-0 mb-0 ms-auto me-auto p-0 container-fluid custom-basic">
-    <header class="mt-0 mb-0 ms-auto me-auto p-0 container-fluid d-flex row align-items-center justify-content-between custom-container">
+    <header class="mt-0 mb-0 ms-auto me-auto p-0 container-fluid d-flex row align-items-center justify-content-between custom-container custom-container-header">
         <div class="m-0 p-0 h-100 col-3">
-            <img
-                src="./images/icon-logo.png"
-                alt="icon-logo"
-                class="bg-transparent"
-            >
+            <a href="#">
+                <img
+                    src="./images/icon-logo.png"
+                    alt="icon-logo"
+                    class="bg-transparent"
+                >
+            </a>
         </div>
         
         <nav class="m-0 p-0 h-100 col-6">
@@ -27,8 +29,9 @@
             </a>
 
             <img
-                src="./images/arrow.png"
+                src="./images/icon-arrow.svg"
                 alt="arrow"
+                class="opacity-50"
             >
 
             <a
@@ -42,17 +45,17 @@
         <div class="mt-0 mb-0 ms-auto me-auto p-0 h-100 container-fluid d-flex col align-items-center justify-content-between">
             <button
                 type="button"
-                class="m-0 p-0 h-100 bg-transparent btn border border-1 rounded-2 custom-btn-message custom-border-color"
+                class="m-0 p-0 h-100 opacity-50 btn btn-outline-secondary border border-1 rounded-2 custom-btn-message"
             >
                 <img
                     src="./images/icon-message.svg"
                     alt="icon-message"
-                    class="opacity-50 img-fluid custom-img-message"
+                    class="img-fluid custom-img-message"
                 >
             </button>
 
             <div class="w-75 h-100 bg-white rounded-3 shadow-sm d-flex align-items-center justify-content-start">
-                <div class="ms-3 me-3 p0 border border-3 rounded-circle custom-avatar custom-border-color">
+                <div class="ms-3 me-3 p0 border border-3 rounded-circle custom-avatar">
                     <img
                         src="./images/avatar.png"
                         alt="avatar"
@@ -60,34 +63,109 @@
                     >
                 </div>
 
-                <p class="m-0 fs-6 fw-bold text-secondary">Максим Добжанский</p>
+                <a
+                    href="#"
+                    class="m-0 fs-6 fw-bold text-secondary text-decoration-none"
+                >
+                    Максим Добжанский
+                </a>
             </div>
         </div>
     </header>
 
-    <main>
-        <button>
-            <img src="" alt="" class="">
-            <p></p>
-        </button>
+    <main class="mt-2 mb-0 ms-auto me-auto p-0 container-fluid d-flex row align-items-center justify-content-between custom-container custom-container-main">
+        <aside class="p-0 h-100 col-3">
+            <nav>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </aside>
 
+        <div class="m-0 p-0 h-100 container col d-flex flex-column align-items-start justify-content-start">
+            <button class="mb-4 ps-3 pe-3 pt-2 pb-2 btn btn-success d-flex align-items-center justify-content-start custom-btn-add-shop">
+                <img
+                    src="./images/icon-plus.svg"
+                    alt="add shop"
+                    class=""
+                >
 
+                <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Создать свой магазин</span>
+            </button>
+
+            <h1 class="mb-3 fs-5 fw-bold text-black">Управление магазинами</h1>
+
+            <div class="p-4 h-auto bg-white rounded-3 shadow custom-shop-box">
+                <div class="d-flex row align-items-center justify-content-around">
+                    <h2 class="mb-3 fw-bold text-black col custom-text">№</h2>
+                    <h2 class="mb-3 fw-bold text-black col-3 custom-text">Название</h2>
+                    <h2 class="mb-3 fw-bold text-black col-3 custom-text">Адрес</h2>
+                    <h2 class="mb-3 fw-bold text-black col-4 custom-text">Действие</h2>
+                </div>
+
+                <div class="pt-3 pb-3 d-flex row align-items-center justify-content-around border border-start-0 border-top-0 border-end-0">
+                    <p class="m-0 fw-bold text-secondary col custom-text">12345</p>
+                    <p class="m-0 fw-bold text-secondary col-3 custom-text">Дипломная работа</p>
+                    <p class="m-0 fw-bold text-secondary col-3 custom-text">http://www.work5.ru/services</p>
+
+                    <div class="d-flex align-items-center justify-content-between col-4">
+                        <button class="me-2 ps-3 pe-3 pt-2 pb-2 btn btn-success d-flex align-items-center justify-content-start custom-btn-add-shop">
+                            <img
+                                src="images/icon-pencil.svg"
+                                alt="add shop"
+                            >
+
+                            <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
+                        </button>
+
+                        <button class="ps-3 pe-3 pt-2 pb-2 btn btn-secondary d-flex align-items-center justify-content-start">
+                            <img
+                                src="./images/icon-close.svg"
+                                alt="add shop"
+                                class=""
+                            >
+
+                            <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="pt-3 pb-3 d-flex row align-items-center justify-content-around">
+                    <p class="m-0 fw-bold text-secondary col custom-text">12345</p>
+                    <p class="m-0 fw-bold text-secondary col-3 custom-text">Дипломная работа</p>
+                    <p class="m-0 fw-bold text-secondary col-3 custom-text">http://www.work5.ru/services</p>
+
+                    <div class="d-flex align-items-center justify-content-between col-4">
+                        <button class="me-2 ps-3 pe-3 pt-2 pb-2 btn btn-success d-flex align-items-center justify-content-start custom-btn-add-shop">
+                            <img
+                                    src="images/icon-pencil.svg"
+                                    alt="add shop"
+                            >
+
+                            <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
+                        </button>
+
+                        <button class="ps-3 pe-3 pt-2 pb-2 btn btn-secondary d-flex align-items-center justify-content-start">
+                            <img
+                                    src="./images/icon-close.svg"
+                                    alt="add shop"
+                                    class=""
+                            >
+
+                            <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <aside>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-    </aside>
 </body>
 </html>
