@@ -21,6 +21,10 @@
   height: 36px;
 }
 
+.custom-logo-box {
+  width: 80%;
+}
+
 .custom-btn-message {
   width: 20%;
 }
