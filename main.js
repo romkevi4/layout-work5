@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector("#popup"),c=document.querySelector("#createNewShop"),t=document.querySelector("#closePopup");c.addEventListener("click",(function(){e.classList.remove("d-none"),e.classList.add("d-flex")})),t.addEventListener("click",(function(){e.classList.remove("d-flex"),e.classList.add("d-none")}))})();
