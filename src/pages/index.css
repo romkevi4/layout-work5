@@ -17,11 +17,15 @@
   height: 65px; /* Нужно убрать жесткую привязку по размеру */
 }
 
+.custom-height {
+  height: 36px;
+}
+
 .custom-btn-message {
   width: 20%;
 }
 
-.custom-btn-add-shop {
+.custom-btn-action {
   background-color: #55c97b;
   border-color: transparent;
 }
@@ -67,8 +71,44 @@
   border-left: 4px transparent solid;
 }
 
-.custom-list-group-active {
+.custom-colors {
   border-left-color: #6666cc;
 
   fill: rgb(102, 102, 204, 1);
+}
+
+.custom-popup-content {
+  width: 616px;
+}
+
+.custom-popup-btn {
+  width: 150px;
+}
+
+.custom-popup-btn-cancel {
+  background-color: #b1b1b1;
+}
+
+.custom-popup-select {
+  width: 45%;
+}
+
+.custom-popup-bg {
+  background-color: #6666cc;
+}
+
+.custom-popup-input {
+  background-color: #e6e6e9;
+}
+
+.custom-popup-input::placeholder {
+  padding: 10px;
+
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
+}
+
+.custom-popup-text {
+  width: 85%;
 }
