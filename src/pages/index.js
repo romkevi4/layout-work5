@@ -1,3 +1,5 @@
+import './index.css';
+
 const popup = document.querySelector('#popup');
 const createNewShop = document.querySelector('#createNewShop');
 const closePopup = document.querySelector('#closePopup');

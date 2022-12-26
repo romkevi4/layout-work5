@@ -5,7 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Layout work5</title>
 </head>
 <body class="mt-0 mb-0 ms-auto me-auto p-3 container-fluid custom-basic">
@@ -14,7 +13,7 @@
             <div class="w-75 h-100 bg-white">
                 <a href="#" class="ps-4 ">
                     <img
-                        src="./images/icon-logo.png"
+                        src="<%=require('./images/icon-logo.png')%>"
                         alt="icon-logo"
                         class="bg-transparent"
                     >
@@ -31,7 +30,7 @@
             </a>
 
             <img
-                src="./images/icon-arrow.svg"
+                src="<%=require('./images/icon-arrow.svg')%>"
                 alt="arrow"
                 class="opacity-50"
             >
@@ -50,7 +49,7 @@
                 class="m-0 p-0 h-100 opacity-50 btn btn-outline-secondary border border-1 rounded-2 custom-btn-message"
             >
                 <img
-                    src="./images/icon-message.svg"
+                    src="<%=require('./images/icon-message.svg')%>"
                     alt="icon-message"
                     class="img-fluid custom-img-message"
                 >
@@ -59,7 +58,7 @@
             <div class="w-75 h-100 bg-white rounded-3 shadow-sm d-flex align-items-center justify-content-start">
                 <div class="ms-3 me-3 p0 border border-3 rounded-circle custom-avatar">
                     <img
-                        src="./images/avatar.png"
+                        src="<%=require('./images/avatar.png')%>"
                         alt="avatar"
                         class="w-100 h-100 rounded-circle custom-avatar-img"
                     >
@@ -386,7 +385,7 @@
                 id="createNewShop"
             >
                 <img
-                    src="./images/icon-plus.svg"
+                    src="<%=require('./images/icon-plus.svg')%>"
                     alt="add shop"
                     class=""
                 >
@@ -412,7 +411,7 @@
                     <div class="p-0 d-flex align-items-center justify-content-between col-4">
                         <button class="me-2 ps-3 pe-3 pt-2 pb-2 btn btn-success rounded-1 d-flex align-items-center justify-content-start custom-btn-action custom-height">
                             <img
-                                src="images/icon-pencil.svg"
+                                src="<%=require('./images/icon-pencil.svg')%>"
                                 alt="add shop"
                             >
 
@@ -421,7 +420,7 @@
 
                         <button class="ps-3 pe-3 pt-2 pb-2 btn btn-secondary rounded-1 d-flex align-items-center justify-content-start custom-height">
                             <img
-                                src="./images/icon-close.svg"
+                                src="<%=require('./images/icon-close.svg')%>"
                                 alt="add shop"
                                 class=""
                             >
@@ -439,8 +438,8 @@
                     <div class="p-0 d-flex align-items-center justify-content-between col-4">
                         <button class="me-2 ps-3 pe-3 pt-2 pb-2 btn btn-success rounded-1 d-flex align-items-center justify-content-start custom-btn-action custom-height">
                             <img
-                                    src="images/icon-pencil.svg"
-                                    alt="add shop"
+                                src="<%=require('./images/icon-pencil.svg')%>"
+                                alt="add shop"
                             >
 
                             <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
@@ -448,9 +447,9 @@
 
                         <button class="ps-3 pe-3 pt-2 pb-2 btn btn-secondary rounded-1 d-flex align-items-center justify-content-start custom-height">
                             <img
-                                    src="./images/icon-close.svg"
-                                    alt="add shop"
-                                    class=""
+                                src="<%=require('./images/icon-close.svg')%>"
+                                alt="add shop"
+                                class=""
                             >
 
                             <span class="ms-2 me-0 mt-0 mb-0 text-white custom-link-text">Редактировать</span>
@@ -610,7 +609,5 @@
             </form>
         </div>
     </div>
-
-    <script src="./pages/index.js"></script>
 </body>
 </html>
