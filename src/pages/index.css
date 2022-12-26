@@ -17,10 +17,6 @@
   height: 65px; /* Нужно убрать жесткую привязку по размеру */
 }
 
-.custom-container-main {
-  height: 500px; /* Нужно убрать жесткую привязку по размеру */
-}
-
 .custom-btn-message {
   width: 20%;
 }
@@ -57,4 +53,22 @@
 
 .custom-text {
   font-size: 13px;
+}
+
+.custom-navigation-box {
+  height: 100vh;
+  width: 80%;
+}
+
+.custom-list-group {
+  height: 49px;
+
+  border: none;
+  border-left: 4px transparent solid;
+}
+
+.custom-list-group-active {
+  border-left-color: #6666cc;
+
+  fill: rgb(102, 102, 204, 1);
 }
