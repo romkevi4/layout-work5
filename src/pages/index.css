@@ -1,0 +1,114 @@
+/* Bootstrap */
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+
+/* Custom styles */
+.custom-basic {
+  font-family: "Roboto Light", sans-serif;
+  background-color: #f8faff;
+}
+
+.custom-container {
+  width: 98%;
+  max-width: 1440px;
+  min-width: 576px;
+}
+
+.custom-container-header {
+  height: 65px; /* Нужно убрать жесткую привязку по размеру */
+}
+
+.custom-height {
+  height: 36px;
+}
+
+.custom-btn-message {
+  width: 20%;
+}
+
+.custom-btn-action {
+  background-color: #55c97b;
+  border-color: transparent;
+}
+
+.custom-img-message {
+  width: 35%;
+}
+
+.custom-link-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.custom-avatar {
+  width: 45px;
+  height: 45px;
+
+  background-color: transparent;
+}
+
+.custom-avatar-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.custom-shop-box {
+  width: 90%;
+}
+
+.custom-text {
+  font-size: 13px;
+}
+
+.custom-navigation-box {
+  height: 100vh;
+  width: 80%;
+}
+
+.custom-list-group {
+  height: 49px;
+
+  border: none;
+  border-left: 4px transparent solid;
+}
+
+.custom-colors {
+  border-left-color: #6666cc;
+
+  fill: rgb(102, 102, 204, 1);
+}
+
+.custom-popup-content {
+  width: 616px;
+}
+
+.custom-popup-btn {
+  width: 150px;
+}
+
+.custom-popup-btn-cancel {
+  background-color: #b1b1b1;
+}
+
+.custom-popup-select {
+  width: 45%;
+}
+
+.custom-popup-bg {
+  background-color: #6666cc;
+}
+
+.custom-popup-input {
+  background-color: #e6e6e9;
+}
+
+.custom-popup-input::placeholder {
+  padding: 10px;
+
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
+}
+
+.custom-popup-text {
+  width: 85%;
+}
